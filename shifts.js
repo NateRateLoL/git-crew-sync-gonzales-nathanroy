@@ -3,6 +3,7 @@ function isValidShift(hours) {
 }
 
 function calculatePay(hours, rate) {
+  //Proper formula for test 4
   if (hours <= 8) {
     return Math.floor(hours * rate);
   }
